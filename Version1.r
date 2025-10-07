@@ -1,6 +1,6 @@
 setwd("~/Desktop/Master/I semicuatri/Statistics/Project/Datasets/ESS11")
 
-datos <- read.csv("ESS11.csv", sep = ",", dec = ".", stringsAsFactors = FALSE)
+datos <- read.csv("data/ESS11.csv", sep = ",", dec = ".", stringsAsFactors = FALSE)
 # Definir vector de variables
 
 names(datos)
